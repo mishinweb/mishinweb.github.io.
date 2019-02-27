@@ -52,7 +52,7 @@
   }
 
   if ($data['status'] != "false") {
-    $mail = mail('alena.safyannikova@yandex.ru', 'Заказ', $mail_messange, $headers);
+    $mail = mail('frosten2772@yandex.ru', 'Заказ', $mail_messange, $headers);
 
     if ($mail) {
       $data['status'] = "true";
